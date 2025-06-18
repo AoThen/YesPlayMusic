@@ -1,3 +1,6 @@
+LABEL org.opencontainers.image.source=https://github.dev/AoThen/YesPlayMusic
+LABEL org.opencontainers.image.description="YesPlayMusic"
+
 FROM node:16.13.1-alpine as build
 ENV VUE_APP_NETEASE_API_URL=/api
 WORKDIR /app
